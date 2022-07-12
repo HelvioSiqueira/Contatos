@@ -6,6 +6,13 @@ object MemoryRepository: ContatoRepository {
 
     init {
 
+        save(Contato(0, "Helvio", "Siqueira", "123456789", "São Luis"))
+        save(Contato(0, "Felipe", "Pereira", "123456789", "Codó"))
+        save(Contato(0, "Leo", "Coimbra", "123456789", "Caxias"))
+        save(Contato(0, "Luquinhas", "Coimbra", "123456789", "Teresina"))
+        save(Contato(0, "Hugo", "Caldini", "123456789", "Londrina"))
+        save(Contato(0, "Paulo", "Caetano", "123456789", "São Paulo"))
+
     }
 
     override fun save(contato: Contato) {

@@ -5,5 +5,7 @@ data class Contato(
     var name: String = "",
     var sobrenome: String = "",
     var telefone: String = "",
-    var endereco: String = ""
-)
+    var cidade: String = ""
+){
+    override fun toString(): String = "$name $sobrenome ($telefone)"
+}
