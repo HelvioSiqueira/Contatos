@@ -1,6 +1,6 @@
 package com.example.contatos
 
-class ContantoDetailsPresenter(private val view: ContatosDetailsView, private val repository: ContatoRepository) {
+class ContatoDetailsPresenter(private val view: ContatosDetailsView, private val repository: ContatoRepository) {
 
     fun loadContatoDetails(id: Long){
         repository.contatoById(id){contato ->

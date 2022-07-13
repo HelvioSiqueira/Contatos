@@ -37,6 +37,7 @@
         app:layout_constraintEnd_toStartOf="@+id/txtCidade"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="10dp"
         tools:text="Celular"/>
 
     <TextView
